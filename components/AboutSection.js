@@ -1,6 +1,6 @@
 export default function AboutSection() {
   return (
-    <section className="about py-5">
+    <section className="dark-section py-5">
       <div className="heading-dark d-flex justify-content-center mb-4">
         เกี่ยวกับ
       </div>
@@ -74,7 +74,7 @@ export default function AboutSection() {
             dolor laudantium autem ipsam quas minima facilis modi adipisci ea.
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat
           </div>
-          <button type="button" class="btn btn-primary btn-about mt-4">
+          <button type="button" className="btn btn-primary btn-about mt-4">
             เพิ่มเติม
           </button>
         </div>

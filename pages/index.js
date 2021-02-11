@@ -1,15 +1,15 @@
 import Head from "next/head";
 import AboutSection from "../components/AboutSection";
+import ContactSection from "../components/ContactSection";
 import HomeSection from "../components/HomeSection";
+import ReviewSection from "../components/ReviewSection";
 import ServicesSection from "../components/ServicesSection";
-import styles from "../styles/Home.module.css";
 
 export default function Home() {
-  console.log(styles.homeButton);
   return (
     <div>
       <Head>
-        <title>ฮัวอุยตึ๊ง</title>
+        <title>ฮัวอุยตึ๊ง HUAYITANG CLINIC</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -17,9 +17,9 @@ export default function Home() {
         <HomeSection />
         <AboutSection />
         <ServicesSection />
+        <ReviewSection />
+        <ContactSection />
       </main>
-
-      <footer></footer>
     </div>
   );
 }

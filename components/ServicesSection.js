@@ -53,8 +53,8 @@ export default function ServicesSection() {
     <section className="container py-5">
       <div className="heading d-flex justify-content-center">การรักษา</div>
       <div className="row justify-content-between">
-        {allServices.map((service) => (
-          <ServiceCard service={service} />
+        {allServices.map((service, index) => (
+          <ServiceCard service={service} key={index} />
         ))}
       </div>
     </section>
